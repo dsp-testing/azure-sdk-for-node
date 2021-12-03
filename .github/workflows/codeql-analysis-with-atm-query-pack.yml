@@ -38,6 +38,7 @@ jobs:
         with:
           languages: javascript
           tools: https://github.com/dsp-testing/codeql-cli-nightlies/releases/download/codeql-bundle-20211130/codeql-bundle-linux64.tar.gz
+          debug: true
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@6a9a623c776ba2f0bf524bab14b5fd01ec12ad1d
